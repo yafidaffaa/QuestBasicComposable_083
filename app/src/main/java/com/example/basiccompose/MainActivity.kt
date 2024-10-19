@@ -17,7 +17,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -57,7 +59,12 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             text = "Indonesia", style = TextStyle(
                 fontSize = 50.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Red
+                color = Color.Red,
+                shadow = Shadow(
+                    offset = Offset(4f, 4f),
+                    blurRadius = 8f
+
+                )
             )
         )
         Text(

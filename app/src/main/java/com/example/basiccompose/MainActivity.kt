@@ -89,7 +89,8 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             text = "20220140083",
             style = TextStyle(
                 fontWeight = FontWeight.Bold,
-                fontSize = 25.sp
+                fontSize = 25.sp,
+                color = Color.Cyan
             )
         )
         Image(

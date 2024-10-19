@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -106,9 +107,13 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         Image(
             painter = painterResource(id = R.drawable.yafi),
             contentDescription = null,
-            modifier = Modifier.clip(
-                RoundedCornerShape(10.dp)
-            )
+            modifier = Modifier
+                .clip(RoundedCornerShape(10.dp))
+                .border(
+                    width = 5.dp,
+                    color = Color.White,
+
+                )
         )
     }
 }

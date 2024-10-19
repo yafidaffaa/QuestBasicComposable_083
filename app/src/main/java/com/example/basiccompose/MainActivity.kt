@@ -89,6 +89,10 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 fontSize = 25.sp
             )
         )
+        Image(
+            painter = painterResource(id = R.drawable.yafi),
+            contentDescription = null,
+        )
     }
 }
 

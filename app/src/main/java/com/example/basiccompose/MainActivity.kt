@@ -112,7 +112,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 .border(
                     width = 5.dp,
                     color = Color.White,
-
+                    shape = RoundedCornerShape(10.dp)
                 )
         )
     }

@@ -79,6 +79,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             style = TextStyle(
                 fontWeight = FontWeight.Bold,
                 fontSize = 50.sp,
+                color = Color.Red
             )
         )
     }

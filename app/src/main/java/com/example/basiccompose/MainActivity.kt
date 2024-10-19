@@ -66,7 +66,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             painter = painterResource(id = R.drawable.fifalogo),
             contentDescription = null
         )
-
+        Text(
+            text = "Nama",
+        )
     }
 }
 

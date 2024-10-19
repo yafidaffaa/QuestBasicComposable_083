@@ -74,6 +74,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 color = Color.Blue
             )
         )
+        Text(
+            text = "Yafi Daffa A",
+        )
     }
 }
 

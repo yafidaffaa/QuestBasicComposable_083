@@ -62,7 +62,8 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 color = Color.Red,
                 shadow = Shadow(
                     offset = Offset(4f, 4f),
-                    blurRadius = 8f
+                    blurRadius = 8f,
+                    color = Color.White
 
                 )
             )

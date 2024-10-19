@@ -76,6 +76,10 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         )
         Text(
             text = "Yafi Daffa A",
+            style = TextStyle(
+                fontWeight = FontWeight.Bold,
+                fontSize = 50.sp,
+            )
         )
     }
 }
